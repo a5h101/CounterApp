@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.counter {
+  background-color: aqua;
+  /* width: fit-content; */
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+  padding-top: 1%;
+  margin-top: 10%;
+  border: 5px solid rgb(52, 52, 52);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: black;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  cursor: pointer;
+}
+.btn-action {
+  margin: 1%;
+  background-color: rgb(181, 204, 204);
+  font-size: medium;
+  font-weight: 700;
+}
+.count {
+  font-weight: bolder;
+  font-size: x-large;
+  margin-top: 0;
+  margin-bottom: 10%;
+}
+body {
+  background-color: rgb(186, 236, 236);
+}
+.increment {
+  background-color: green;
+}
+.decrement {
+  background-color: rgba(255, 0, 0, 0.736);
+}
